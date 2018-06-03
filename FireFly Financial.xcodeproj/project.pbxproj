@@ -14,6 +14,7 @@
 		ADB0AEE520C43F3A00042486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0AEE320C43F3A00042486 /* LaunchScreen.storyboard */; };
 		ADB0AEF020C43F3A00042486 /* FireFly_FinancialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0AEEF20C43F3A00042486 /* FireFly_FinancialTests.swift */; };
 		ADB0AEFB20C43F3A00042486 /* FireFly_FinancialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0AEFA20C43F3A00042486 /* FireFly_FinancialUITests.swift */; };
+		ADB0AF0A20C4435500042486 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0AF0920C4435500042486 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ADB0AEF620C43F3A00042486 /* FireFly FinancialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireFly FinancialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0AEFA20C43F3A00042486 /* FireFly_FinancialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireFly_FinancialUITests.swift; sourceTree = "<group>"; };
 		ADB0AEFC20C43F3A00042486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB0AF0920C4435500042486 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				ADB0AEDA20C43F3900042486 /* AppDelegate.swift */,
-				ADB0AEDC20C43F3900042486 /* ViewController.swift */,
+				ADB0AF0820C4432800042486 /* Controller */,
 				ADB0AEDE20C43F3900042486 /* Main.storyboard */,
 				ADB0AEE120C43F3A00042486 /* Assets.xcassets */,
 				ADB0AEE320C43F3A00042486 /* LaunchScreen.storyboard */,
@@ -123,6 +125,15 @@
 				ADB0AEFC20C43F3A00042486 /* Info.plist */,
 			);
 			path = "FireFly FinancialUITests";
+			sourceTree = "<group>";
+		};
+		ADB0AF0820C4432800042486 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0AF0920C4435500042486 /* LoginController.swift */,
+				ADB0AEDC20C43F3900042486 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB0AEDD20C43F3900042486 /* ViewController.swift in Sources */,
+				ADB0AF0A20C4435500042486 /* LoginController.swift in Sources */,
 				ADB0AEDB20C43F3900042486 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
